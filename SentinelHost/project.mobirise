@@ -1,0 +1,769 @@
+{
+  "settings": {
+    "name": "Sentinel.host",
+    "currentPage": "page7.html",
+    "theme": {
+      "name": "blackamp",
+      "title": "BlackAMP",
+      "styling": {
+        "primaryColor": "#dd4f39",
+        "secondaryColor": "#ffde00",
+        "successColor": "#b2ccd2",
+        "infoColor": "#75818d",
+        "warningColor": "#767676",
+        "dangerColor": "#879A9F",
+        "mainFont": "Source Sans Pro",
+        "display1Font": "Tinos",
+        "display1Size": 4.5,
+        "display2Font": "Tinos",
+        "display2Size": 2.2,
+        "display5Font": "Source Sans Pro",
+        "display5Size": 1.8,
+        "display7Font": "Source Sans Pro",
+        "display7Size": 1.1,
+        "display4Font": "Source Sans Pro",
+        "display4Size": 1,
+        "isRoundedButtons": false,
+        "isScrollToTopButton": false,
+        "arrowColor": "#dd4f39"
+      },
+      "additionalSetColors": []
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.8.6",
+    "siteFonts": [],
+    "uniqCompNum": 10,
+    "versionPublish": "4.8.6"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Sentinal Host&nbsp;</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Login</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/thomas-kvistholt-191153-unsplash-1628x1087.jpg\" alt=\"Mobirise\" width=\"804.264949402024\" height=\"537\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/thomas-kvistholt-191153-unsplash-1628x1087.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r739snR5ci",
+          "_anchor": "header5-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Login Page&nbsp;",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 7
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Set up login with django&nbsp;</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"page1.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">Login</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/thomas-kvistholt-191153-unsplash-1628x1087.jpg\" alt=\"Mobirise\" width=\"804.264949402024\" height=\"537\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/thomas-kvistholt-191153-unsplash-1628x1087.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73bTV1iB4",
+          "_anchor": "header5-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "Add Device&nbsp;",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Select from &nbsp;list of devices instert&nbsp;</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a> <a class=\"btn btn-md btn-success\" href=\"https://mobirise.com\">DOWNLOAD NOW</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" width=\"804\" height=\"536\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73fFFhxmo",
+          "_anchor": "header5-2",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "controllerLive",
+        "order": 5
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Controll command insert here</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a> <a class=\"btn btn-md btn-success\" href=\"https://mobirise.com\">DOWNLOAD NOW</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" width=\"804\" height=\"536\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73gTbXeqU",
+          "_anchor": "header5-4",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "deviceState",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Current Device State<br><br><br><br><br>Insert char.js info below picture</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a> <a class=\"btn btn-md btn-success\" href=\"https://mobirise.com\">DOWNLOAD NOW</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" width=\"1216.5\" height=\"811\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73gXHV6qd",
+          "_anchor": "header5-5",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "title": "operationsPi",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Intrusion Operations<br><br>insert commands below picture</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a> <a class=\"btn btn-md btn-success\" href=\"https://mobirise.com\">DOWNLOAD NOW</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" width=\"892.5\" height=\"595\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73h8shN8w",
+          "_anchor": "header5-6",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "page7.html": {
+      "settings": {
+        "title": "Device",
+        "order": 6
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-btn": {
+              "margin-bottom": "20px",
+              "width": "100%"
+            },
+            "amp-img": {
+              "width": "100%",
+              "height": "100%",
+              "text-align": "center",
+              "margin": "0 auto",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "img": {
+              "height": "100%",
+              "object-fit": "cover",
+              "object-position": "center center"
+            },
+            "h1": {
+              "text-align": "left",
+              "color": "#ffffff",
+              "width": "100%"
+            },
+            ".text-col": {
+              "display": "-webkit-flex",
+              "align-items": "flex-end",
+              "flex-direction": "column",
+              "padding-left": "4rem",
+              "padding-bottom": "2rem",
+              "-webkit-align-items": "flex-end",
+              "-webkit-flex-direction": "column"
+            },
+            ".img-col": {
+              "padding": "0"
+            },
+            "div.mbr-text": {
+              "color": "#fff",
+              "max-width": "40%",
+              "padding-top": "6rem",
+              "@media (max-width: 1200px)": {
+                "max-width": "50%"
+              },
+              "p": {
+                "border-right": "2px #efefef solid",
+                "padding-right": "15px"
+              }
+            },
+            ".mbr-text": {
+              "color": "#ffffff",
+              "text-align": "right"
+            },
+            "@media (max-width: 992px)": {
+              "h1": {
+                "text-align": "center !important"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center !important"
+              },
+              "div.mbr-text": {
+                "align-self": "center",
+                "-webkit-align-self": "center",
+                "p": {
+                  "border-right": "none",
+                  "text-align": "center !important",
+                  "padding-right": "0"
+                }
+              },
+              ".text-col": {
+                "padding-left": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              "div.mbr-text": {
+                "max-width": "80%"
+              }
+            }
+          },
+          "_name": "header5",
+          "_customHTML": "<section class=\"header5\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n       \n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked=\"\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-5 text-col\">\n                <div class=\"mbr-text align-right\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"></p>\n                </div>\n                <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-1\" data-app-selector=\"h1, .mbr-section-btn\">Welcome To&nbsp;<br>Sentinal<br><br><br>&nbsp; &nbsp; &nbsp; &nbsp; Menu</h1>\n\n                <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons=\"\" mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-success\" href=\"page4.html\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-drag-n-drop mbr-iconfont mbr-iconfont-btn\"></span>Live Controller</a>  <a class=\"btn btn-md btn-success\" href=\"page5.html\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-preview mbr-iconfont mbr-iconfont-btn\"></span>Device State</a> <a class=\"btn btn-md btn-success\" href=\"page6.html\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"mbri-wifi mbr-iconfont mbr-iconfont-btn\"></span>Operations&nbsp;</a></div>\n            </div>\n            <div class=\"mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-6 mbr-col-xl-7 img-col\">\n                <amp-img src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" width=\"1009.5\" height=\"673\" layout=\"responsive\" class=\"mobirise-loader\">\n                    <div placeholder=\"\" class=\"placeholder\"></div>\n                    <img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/lenka-sluneckova-532314-unsplash-1608x1072.jpg\" alt=\"Mobirise\" title=\"\">\n                </amp-img>\n            </div>\n        </div>\n</section>",
+          "_cid": "r73kWSVAQp",
+          "_anchor": "header5-7",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    }
+  }
+}

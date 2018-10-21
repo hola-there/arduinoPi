@@ -1,0 +1,18 @@
+
+#!/bin/bash
+
+#scans and uploads access points and bluetooth connections to a file
+
+echo "Type (scan on) to scan for bluetooth connections"
+echo "Type (exit) to stop scanning or to avoid scanning for bluetooth"
+
+cd /home/pi/sentinelresults   
+
+sudo iwlist wlan1 scan > sentinel0
+
+sudo bluetoothctl -a |& tee /run/shm/BLUETOOTH_OUTPUT > sentinelb
+
+
+
+
+

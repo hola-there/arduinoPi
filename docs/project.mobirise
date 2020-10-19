@@ -46,7 +46,7 @@
     "uniqCompNum": 29,
     "versionPublish": "5.2.0",
     "screenshot": "screenshot.png",
-    "favicon": "@PROJECT_PATH@/assets/images/arduniopi-mini-logo-with-bg-ap-mini-logo-128x98_2.png",
+    "favicon": "@PROJECT_PATH@/assets/images/arduniopi-mini-logo-with-bg-ap-mini-logo-128x98-2.png",
     "cssOptimize": false,
     "lazyLoad": false,
     "lazyType": "nothing",

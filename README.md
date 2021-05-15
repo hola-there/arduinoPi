@@ -21,14 +21,9 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Website Status][website-status-shield]][website-url]
+[![Documentation Website Status][docs-website-status-shield]][docs-website-url]
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Twitter][twitter-shield]][twitter-url]
-[![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
-[![Ola's Website][ola-s-website-shield]][ola-s-website-url]
-[![Ola's Profile][ola-s-profile-shield]][ola-s-profile-url]
-
-
+<img alt="Website" src="https://img.shields.io/website?down_message=incomplete&style=for-the-badge&up_message=operational&url=https%3A%2F%2Fdocs.arduinopi.tech%2F%23">
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -89,7 +84,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://arduinopi.tech/)
+[![Product Name Screen Shot](/design_assets/arduinoPi_Website.png "Screenshot of Main Website")](https://arduinopi.tech/)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -186,9 +181,17 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-👋🏿 Ola B. - [@olabamisaiye](https://twitter.com/olabamisaiye?lang=en) - [![image](https://user-images.githubusercontent.com/22028053/118379318-832f1980-b5a7-11eb-9e97-0e618488417e.png) code@olab.dev ](mailto:code@olab.dev)
+# 👋🏿 Ola B.
+![image](https://user-images.githubusercontent.com/22028053/118379597-7ca1a180-b5a9-11eb-9bf5-331da8640e5e.png)
+* [![Ola's Contact Email:][ola-mail-shield]][ola-mail-url]
+* [![Ola's LinkedIn][linkedin-shield]][linkedin-url]
+* [![Ola's Twitter][twitter-shield]][twitter-url]
+* [![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
+* [![Ola's Website][ola-s-website-shield]][ola-s-website-url]
+* My Profile: [![Ola's Profile][ola-s-profile-shield]][ola-s-profile-url]
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/hola-there/arduinoPi](https://github.com/hola-there/arduinoPi)
+Project Docs Link: [https://github.com/hola-there/arduinoPi_docs](https://github.com/hola-there/arduinoPi_docs)
 
 
 
@@ -221,17 +224,20 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-shield]: https://img.shields.io/github/issues/hola-there/arduinoPi?style=for-the-badge
 [issues-url]: https://github.com/hola-there/arduinoPi/issues
 [license-shield]: https://img.shields.io/github/license/hola-there/arduinoPi?style=for-the-badge
-[license-url]: https://github.com/hola-there/arduinoPi/LICENSE.txt
+[license-url]: https://github.com/hola-there/arduinoPi/LICENSE
+[docs-website-status-shield]: https://img.shields.io/website?down_message=incomplete&style=for-the-badge&up_message=operational&url=https%3A%2F%2Fdocs.arduinopi.tech%2F%23
+[docs-website-url]: https://docs.arduinopi.tech/
 [website-status-shield]: https://img.shields.io/website?down_message=website%20down&style=for-the-badge&up_message=operational&url=https%3A%2F%2Farduinopi.tech%2F%23
 [website-url]: https://arduinopi.tech/
+[ola-mail-shield]: https://img.shields.io/badge/📧%20code%40olab%2Cdev-Email%20Ola%20B.-orange?style=for-the-badge
+[ola-mail-url]: mailto:code@olab.dev
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ola-bamisaiye
 [twitter-shield]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Folabamisaiye%3Flang%3Den
 [twitter-url]: https://twitter.com/olabamisaiye?lang=en
-[swapp-tech-shield]: https://img.shields.io/badge/Swapp%20Tech.%20LLC-https%3A%2F%2Fwww.swapp.solutions%2F-blue
+[swapp-tech-shield]: https://img.shields.io/badge/Swapp%20Tech.%20LLC-https%3A%2F%2Fwww.swapp.solutions%2F-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iLTAuNSAtMC4xIDM1IDM3LjIiIHdpZHRoPSI4MDAiIGhlaWdodD0iODAwIiBzdHlsZT0iJiMxMDsgICAgY29sb3I6IHdoaXRlICFpbXBvcnRhbnQ7JiMxMDsiPjxnIGRhdGEtbmFtZT0iJmx0O0dyb3VwJmd0OyI+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IiZsdDtDb21wb3VuZCBQYXRoJmd0OyIgZD0iTTAgMTguMzZ2LjQ5YTMuMjcgMy4yNyAwIDAwMS44NSAyLjQxbDI3LjEgMTUuNThoLjFhNSA1IDAgMDAxLjM5LjIxIDMuMjcgMy4yNyAwIDAwMS44NS0uNTQgNC40IDQuNCAwIDAwMS43LTIuOTRWMy40OGE0LjQgNC40IDAgMDAtMS43LTIuOTQgMy43NCAzLjc0IDAgMDAtMy4yNC0uMzJoLS4xOWwtMjcgMTUuNTJhMy4yNyAzLjI3IDAgMDAtMS44NSAyLjQxem0xLjc2LjA4YTEuNTYgMS41NiAwIDAxLjg0LTFsLjA5LS4wNUwyOS42NCAxLjg4YTIgMiAwIDAxMS42Ny4xMiAyLjYxIDIuNjEgMCAwMS45MiAxLjY5djE0LjJoLTYuNTVhMi4yNCAyLjI0IDAgMTAwIDEuNDFoNi41NXYxNC4xNGEyLjU5IDIuNTkgMCAwMS0uOTIgMS42NCAyIDIgMCAwMS0xLjY3LjEyTDIuNjUgMTkuNjlIMi42YTEuNTMgMS41MyAwIDAxLS44My0xem0yMS43OSAxLjI1YTEuMTkgMS4xOSAwIDAxMC0yLjM4IDEuMTkgMS4xOSAwIDAxMCAyLjM4eiIgZmlsbD0iYmxhY2siLz48cGF0aCBkYXRhLW5hbWU9IiZsdDtDb21wb3VuZCBQYXRoJmd0OyIgZD0iTTUuNzcgMTguNTRhMS44OCAxLjg4IDAgMDAxIDEuNjVsMjEuMyAxMi4yOWExLjg4IDEuODggMCAwMDEuOTEgMCAxLjkgMS45IDAgMDAuOTUtMS42NXYtOS4wNmgtMy40OGwtMi4xNCAyLjE0aC00LjkzYTEuNDIgMS40MiAwIDEwMCAuN2g1LjIzbDIuMTYtMi4xNGgyLjQ4djguMzZhMS4yIDEuMiAwIDAxLTEuOCAxTDcuMDUgMTkuNThhMS4xOCAxLjE4IDAgMDEtLjU1LS42OWg5LjQxYTIuMDcgMi4wNyAwIDEwMC0uN0g2LjVhMS4yMSAxLjIxIDAgMDEuNTUtLjY5TDI4LjQyIDUuMjFhMS4yMiAxLjIyIDAgMDExLjIgMCAxLjE5IDEuMTkgMCAwMS42IDF2OC43OGgtMi40NWwtMi4zLTIuNDhoLTVhMS40IDEuNCAwIDAwLTEuMzctMS4wOSAxLjQyIDEuNDIgMCAxMDAgMi44MyAxLjQxIDEuNDEgMCAwMDEuMzYtMWg0Ljc0bDIuMjEgMi40NGgzLjUyVjYuMjVhMS45MSAxLjkxIDAgMDAtMi44Ni0xLjY1TDYuNyAxNi44OWExLjg4IDEuODggMCAwMC0uOTMgMS42NXptMTQtNS43YS43MS43MSAwIDExLS43MS0uNzIuNzEuNzEgMCAwMS43MS43MnptLTMuMTQgNS43QTEuMzcgMS4zNyAwIDExMTggMTkuOTFhMS4zNiAxLjM2IDAgMDEtMS40Mi0xLjM3em0zLjE0IDUuNzFhLjcxLjcxIDAgMTEtLjcxLS43Mi43MS43MSAwIDAxLjcxLjcyeiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=
 [swapp-tech-url]: https://www.swapp.solutions/
-[ola-s-website-shield]: 
+[ola-s-website-shield]: https://img.shields.io/badge/🌍%20My%20Website%20LLC-https%3A%2F%2Fcheckout.olabamisaiye.me%2F-blue?style=for-the-badge
 [ola-s-website-url]: https://checkout.olabamisaiye.me/
-[ola-s-profile-shield]: 
+[ola-s-profile-shield]: https://avatars.githubusercontent.com/u/22028053?s=60&v=4
 [ola-s-profile-url]: https://github.com/hola-there
-[product-screenshot]: design_assets/arduinoPi_Website.png

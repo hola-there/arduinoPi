@@ -20,6 +20,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
+[![Website Status][website-status-shield]][website-url]
+
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
 [![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
@@ -31,7 +33,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/hola-there/arduinoPi">
-    <img src="docs/assets/images/arduniopi-logo-arduino-pi-arduino-pi.svg" alt="Logo" width="80" height="80">
+    <img src="design_assets/ardunioPi_logo_Arduino Pi.png" style="background-color:white;" alt="Logo" width="100%">
   </a>
 
   <h3 align="center">arduinoPi</h3>
@@ -87,7 +89,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://arduinopi.tech/)
 
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
@@ -184,7 +186,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+👋🏿 Ola B. - [@olabamisaiye](https://twitter.com/olabamisaiye?lang=en) - [![image](https://user-images.githubusercontent.com/22028053/118379318-832f1980-b5a7-11eb-9e97-0e618488417e.png) code@olab.dev ](mailto:code@olab.dev)
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
@@ -220,9 +222,16 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-url]: https://github.com/hola-there/arduinoPi/issues
 [license-shield]: https://img.shields.io/github/license/hola-there/arduinoPi?style=for-the-badge
 [license-url]: https://github.com/hola-there/arduinoPi/LICENSE.txt
+[website-status-shield]: https://img.shields.io/website?down_message=website%20down&style=for-the-badge&up_message=operational&url=https%3A%2F%2Farduinopi.tech%2F%23
+[website-url]: https://arduinopi.tech/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ola-bamisaiye
-[![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
-[![Ola's Website][ola-s-website-shield]][ola-s-website-url]
-[![Ola's Profile][ola-s-profile-shield]][ola-s-profile-url]
-[product-screenshot]: docs/assets/images/
+[twitter-shield]: https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Folabamisaiye%3Flang%3Den
+[twitter-url]: https://twitter.com/olabamisaiye?lang=en
+[swapp-tech-shield]: https://img.shields.io/badge/Swapp%20Tech.%20LLC-https%3A%2F%2Fwww.swapp.solutions%2F-blue
+[swapp-tech-url]: https://www.swapp.solutions/
+[ola-s-website-shield]: 
+[ola-s-website-url]: https://checkout.olabamisaiye.me/
+[ola-s-profile-shield]: 
+[ola-s-profile-url]: https://github.com/hola-there
+[product-screenshot]: design_assets/arduinoPi_Website.png

@@ -59,13 +59,27 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#features">Features</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <ul>
+          <li><a href="#prerequisites-on-windows-devices-windows-10-and-above">Prerequisites on Windows Devices (Windows 10 and Above)</a></li>
+          <li><a href="#prerequisites-on-mac-devices-mac-os-10x-and-above">Prerequisites on Mac Devices (Mac OS 10.X and Above)</a></li>
+          <li><a href="#prerequisites-on-raspberry-pi-devices-raspberry-pi-zero--3--above">Prerequisites on Raspberry Pi Devices (Raspberry Pi Zero & 3 + Above)</a></li>
+          <li><a href="#prerequisites-on-linux-os-devices-kernel--above">Prerequisites on Linux OS Devices (Kernel... & Above)</a></li>
+        </ul>
         <li><a href="#installation">Installation</a></li>
+        <ul>
+          <li><a href="#installation-on-windows-devices-windows-10-and-above">Installation on Windows Devices (Windows 10 and Above)</a></li>
+          <li><a href="#installation-on-mac-devices-mac-os-10x-and-above">Installation on Mac Devices (Mac OS 10.X and Above)</a></li>
+          <li><a href="#installation-on-raspberry-pi-devices-raspberry-pi-zero--3--above">Installation on Raspberry Pi Devices (Raspberry Pi Zero & 3 + Above)</a></li>
+          <li><a href="#installation-on-linux-os-devices-kernel--above">Installation on Linux OS Devices (Kernel... & Above)</a></li>
+          
+        </ul>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>

@@ -86,6 +86,8 @@
 
 This project is meant to make it easier to connect with microcontrolls such as arduinos and other supported by [platformio.org](https://platformio.org/).
 
+### Features
+
 Some of the features of this software includes:
 * Faster Sketches
 > Edits can be made on the fly with the browser based IDE & PlatformIO. Due to the 32,256 byte limit on Arduino UNO's and similar limits on other microcontrollers being able to modify sketches easily on one or more microcontrollers from any computer or microcomputer speeds things along and due to networking & more being handled by the computer more of the storage limit can be used for the task at hand instead of something that a microcontroller is not made for and may not be secured for usage with.  
@@ -130,6 +132,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+#### Prerequisites on Windows Devices (Windows 10 and Above)
+1. Install [Python 3.X](https://www.python.org/downloads/)
+#### Prerequisites on Mac Devices (Mac OS 10.X and Above)
+#### Prerequisites on Raspberry Pi Devices (Raspberry Pi Zero & 3 + Above)
+#### Prerequisites on Linux OS Devices (Kernel... & Above)
+
 This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
@@ -138,6 +146,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+#### Installation on Windows Devices (Windows 10 and Above)
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
@@ -156,23 +165,26 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    ...._start_project_command....
    ```
-
+#### Installation on Mac Devices (Mac OS 10.X and Above)
+#### Installation on Raspberry Pi Devices (Raspberry Pi Zero & 3 + Above)
+#### Installation on Linux OS Devices (Kernel... & Above)
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Useful examples of how the project can be used will be coming soon.
+
+Additional screenshots, code examples and demos will be added as well. 
+
+I will also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://github.com/hola-there/arduinoPi_docs)_
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/hola-there/arduinoPi/issues) for a list of proposed features (and known issues).
 Or see the Project Board created for organizing the proposed and in progress features: https://github.com/hola-there/arduinoPi/projects/1
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -184,8 +196,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License

@@ -86,6 +86,9 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
+    <ul>
+        <li><a href="#-ola-b">👋🏿 Ola B.</a></li>
+    </ul>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -220,14 +223,20 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-# 👋🏿 Ola B.
+### 👋🏿 Ola B.
 ![image](https://user-images.githubusercontent.com/22028053/118379597-7ca1a180-b5a9-11eb-9bf5-331da8640e5e.png)
-* [![Ola's Contact Email:][ola-mail-shield]][ola-mail-url]
-* [![Ola's LinkedIn][linkedin-shield]][linkedin-url]
-* [![Ola's Twitter][twitter-shield]][twitter-url]
-* [![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
-* [![Ola's Website][ola-s-website-shield]][ola-s-website-url]
-* My Profile: [![Ola's Profile][ola-s-profile-shield]][ola-s-profile-url]
+
+[![Ola's Contact Email:][ola-mail-shield]][ola-mail-url]
+
+[![Ola's LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Ola's Twitter][twitter-shield]][twitter-url]
+
+[![Swapp Technologies][swapp-tech-shield]][swapp-tech-url]
+
+[![Ola's Website][ola-s-website-shield]][ola-s-website-url]
+
+My Profile: [![Ola's Profile][ola-s-profile-shield]][ola-s-profile-url]
 
 Project Link: [https://github.com/hola-there/arduinoPi](https://github.com/hola-there/arduinoPi)
 Project Docs Link: [https://github.com/hola-there/arduinoPi_docs](https://github.com/hola-there/arduinoPi_docs)

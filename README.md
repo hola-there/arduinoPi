@@ -84,22 +84,39 @@
 
 [![Product Name Screen Shot](/design_assets/arduinoPi_Website.png "Screenshot of Main Website")](https://arduinopi.tech/)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This project is meant to make it easier to connect with microcontrolls such as arduinos and other supported by [platformio.org](https://platformio.org/).
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Some of the features of this software includes:
+* Faster Sketches
+> Edits can be made on the fly with the browser based IDE & PlatformIO. Due to the 32,256 byte limit on Arduino UNO's and similar limits on other microcontrollers being able to modify sketches easily on one or more microcontrollers from any computer or microcomputer speeds things along and due to networking & more being handled by the computer more of the storage limit can be used for the task at hand instead of something that a microcontroller is not made for and may not be secured for usage with.  
+* Serial Output Viewer
+> Specify the socket and other parameters to view the output of serial connections! This aids the testing process!
+* Web UI Control
+> Utilize web ui controls in order to direct motors, flash lights, make sounds, open values, & anything else you create!
+* Browser Based IDE
+> Using the [Microsoft Monaco Editor](https://github.com/microsoft/monaco-editor) users are able to utilize an IDE hosted and connected to ArduinoPi that provides the following features to desktop browsers so mobile browsers nor mobile web app frameworks are supported:
+>> Quick file navigation
+>> Code Syntax Highlighting
+>> Bracket matching
+>> Errors & warnings
+>> And many more stipulated [here](https://code.visualstudio.com/docs/editor/editingevolved) & [here](https://github.com/microsoft/monaco-editor#monaco-editor).
+* Arduino Templates
+> A few example templates are provided for some basic arduino projects + some project setup instructions
+* Mobile Friendly Control
+> Connect and control aspects of the using the platform from wifi capable devices (phones, tablets, laptops, etc.)
+* Secure Wifi Control
+> Instead of utilizing Bluetooth technology for projects; you can utilize each component in the best way. Microcomputers for more secure network based needs & microcontrollers for precise and accurate analog data procurement or device control.
+* Real-time Data Visualization
+> After setting up output in a format on the microcontroller; visualize data provided in real-time in browser with [Chart.js](https://www.chartjs.org/). Create your own dashboard, add video input as one of your data sources, & more. Customize the starting point provided to meet you and your project's needs!
+* Role-Based Permissions
+> Create guest users, add roles, limit permissions and more with local authentication and social media authentication if internet is available!
+* 800+ MicroControllers Supported
+> More than [800+ other microcontrollers](https://platformio.org/boards) are supported. Feel free to use other microcontrollers; Arduino Uno R3 isn't the only one supported. Try out Arduino Mega's, ESP-xx boards, and more. Due to integration with [PlatformIO](https://platformio.org/)! Even the microcomputer doesn't have to be a Raspberry Pi or even a normal computer can be used. The options are endless as long as the software required are able to be installed on your computer or microcomputer of choice.
 
 ### Built With
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* 
 * [Vue Js](https://vuejs.org/)
 * [Python 3.X](https://www.python.org/downloads/)
 * [Django 3.X](https://www.djangoproject.com)

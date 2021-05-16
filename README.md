@@ -78,7 +78,6 @@
           <li><a href="#installation-on-mac-devices-mac-os-10x-and-above">Installation on Mac Devices (Mac OS 10.X and Above)</a></li>
           <li><a href="#installation-on-raspberry-pi-devices-raspberry-pi-zero--3--above">Installation on Raspberry Pi Devices (Raspberry Pi Zero & 3 + Above)</a></li>
           <li><a href="#installation-on-linux-os-devices-kernel--above">Installation on Linux OS Devices (Kernel... & Above)</a></li>
-          
         </ul>
       </ul>
     </li>

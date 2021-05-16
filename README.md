@@ -21,9 +21,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Website Status][website-status-shield]][website-url]
-[![Documentation Website Status][docs-website-status-shield]][docs-website-url]
 
-<img alt="Website" src="https://img.shields.io/website?down_message=incomplete&style=for-the-badge&up_message=operational&url=https%3A%2F%2Fdocs.arduinopi.tech%2F%23">
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -45,7 +43,7 @@
     ·
     <a href="https://github.com/hola-there/arduinoPi/issues">Request Feature</a>
     ·
-    <a href="https://github.com/hola-there/arduinoPi/projects/1">RoadMap</a>
+    <a href="https://github.com/hola-there/arduinoPi/projects/1">RoadMap Board</a>
     ·
     <a href="https://github.com/hola-there/arduinoPi/projects/2">Bug Project Board</a>
   </p>
@@ -101,6 +99,7 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
+* 
 * [Vue Js](https://vuejs.org/)
 * [Python 3.X](https://www.python.org/downloads/)
 * [Django 3.X](https://www.djangoproject.com)
